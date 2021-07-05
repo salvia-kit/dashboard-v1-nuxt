@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'dashboard-v1-nuxt',
+    title: 'Salvia-kit Dashboard v1 Nuxt.js',
     htmlAttrs: {
       lang: 'en',
     },

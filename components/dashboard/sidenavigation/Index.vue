@@ -10,7 +10,7 @@
     "
     :class="[
       style[mobilePosition],
-      open ? 'absolute w-8/12 z-40 sm:w-5/12' : 'hidden',
+      state.open ? 'absolute w-8/12 z-40 sm:w-5/12' : 'hidden',
     ]"
   >
     <div class="pb-32 lg:pb-6">
@@ -27,6 +27,7 @@ import SidenavHeader from './Header.vue'
 export default {
   name: 'SideNavigation',
   components: { SidenavItems, SidenavHeader },
+  inject: ['state'],
   props: {
     mobilePosition: {
       type: String,
@@ -40,11 +41,6 @@ export default {
         right: 'right-0',
       },
     }
-  },
-  computed: {
-    open() {
-      return this.$store.state.dashboard.open
-    },
   },
 }
 </script>
