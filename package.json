@@ -16,8 +16,8 @@
     "dashboard",
     "admin",
     "tailwindcss",
-    "next",
-    "Next.js",
+    "nuxt",
+    "Nuxt.js",
     "layout"
   ],
   "scripts": {
