@@ -57,7 +57,7 @@
         </div>
         <div class="pl-16 flex mb-3">
           <vue-icon />
-          <span class="pl-2">items.vue</span>
+          <span class="pl-2">Items.vue</span>
         </div>
         <div class="pl-16 flex mb-3">
           <vue-icon />
